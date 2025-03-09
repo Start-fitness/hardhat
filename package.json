@@ -1,0 +1,30 @@
+{
+  "name": "hardhat",
+  "version": "1.0.0",
+  "description": "hardhat for testing smart contracts",
+  "keywords": [
+    "hardhat",
+    "smart",
+    "contract",
+    "test"
+  ],
+  "homepage": "https://github.com/Start-fitness/hardhat#readme",
+  "bugs": {
+    "url": "https://github.com/Start-fitness/hardhat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Start-fitness/hardhat.git"
+  },
+  "license": "ISC",
+  "author": "Andrei Gritsevich",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19"
+  }
+}
