@@ -12,12 +12,18 @@ const config: HardhatUserConfig = {
     ],
   },
   networks: {
-    hardhat: {
-      forking: {
-        url: "https://eth-mainnet.g.alchemy.com/v2/b480ad7633384c2182710211530d4bdd",
-        blockNumber: 19362010,
-      },
+    localhost: {
+      url: "http://localhost:8545",
     },
+    polygon: {
+      url: "https://rpc.ankr.com/polygon",
+    },
+    // hardhat: {
+    //   forking: {
+    //     url: "https://eth-mainnet.g.alchemy.com/v2/b480ad7633384c2182710211530d4bdd",
+    //     blockNumber: 19362010,
+    //   },
+    // },
   },
 
 };

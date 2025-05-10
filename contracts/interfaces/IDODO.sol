@@ -5,7 +5,8 @@ interface IDODO {
 function flashLoan(
     uint256 baseAmount, uint256 quoteAmount,
     address assetTo,
-    bytes calldata data) external;
+    bytes calldata data //READING FROM DATA WILL BE CHEAPER
+) external;
 
     function _BASE_TOKEN_() external view returns (address);
     function _BASE_RESERVE_() external view returns (address);
